@@ -27,6 +27,7 @@ class App extends Component {
         })  
     }
 
+
     onSettingDeafult = (value) => {
         if(value) {
             this.setState({
@@ -52,7 +53,7 @@ class App extends Component {
                         />
                         <Reset onSettingDeafult = {this.onSettingDeafult}/>
                     </div>
-                    
+
                     <Result 
                         color={ this.state.color }  
                         fontSize={ this.state.fontSize}
